@@ -37,7 +37,7 @@ void CreateAccount()
     srand(time(NULL));
 
     Account account[100];
-    FILE* fp = fopen("Account_Info.txt", "r");
+    FILE* fp = fopen("Account_Info.txt", "a");
 
     int users_index = 0;
     account[users_index].money = 0;
